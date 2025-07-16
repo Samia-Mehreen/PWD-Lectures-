@@ -1,0 +1,39 @@
+a:link{
+    color:black;
+    background-color: rgb(77, 170, 228);
+    border: 2px solid black;
+}
+
+a:visted{
+    color: white;
+    background-color: brown;
+    border: 2px solid black;
+}
+
+a:hover{
+    color: black;
+    background-color: lightskyblue;
+    border: 2px solid black;
+}
+
+h2{
+    color: rgb(54, 124, 148);
+    font-weight:bolder;
+   
+}
+
+.name{
+    background-color:beige;
+    border:2px solid black;
+
+}
+
+.option{
+    background-color:beige;
+    border:2px solid black;    
+}
+
+.amount{
+    background-color:beige;
+    border:2px solid black;       
+}

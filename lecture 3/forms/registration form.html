@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+/* body {font-family:sans-serif;} */
+
+
+
+* {box-sizing: border-box;}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times;
+    font-weight: 9000;
+  
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: rgb(4, 46, 63);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+
+  background-color: skyblue;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: 2px solid black;
+0
+  width: 100%;
+  /* opacity: 0.9; */
+}
+
+.btn:hover {
+  background-color: brown;
+ 
+}
+</style>
+</head>
+<body>
+
+<form>
+  <h2>Registeration Form</h2>
+  <div class="input-container">
+    <i class="fa fa-gun icon"></i>
+    <input class="input-field" type="text" placeholder="Name" required name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" required name="email">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" required name="psw">
+  </div>
+
+  <button type="submit" class="btn">Register</button>
+</form>
+
+</body>
+</html>

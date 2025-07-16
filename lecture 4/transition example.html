@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            /* border:4px solid black; */
+            border: 4px solid black;
+          
+            transition: all 0.5s;
+           
+            background-color: #edd8f5;
+            transition:
+                width 2s,
+                height 2s,
+                background-color 10s,
+                rotate 5s;
+
+            padding-top: 50px;
+        }
+
+        .box:hover {
+            background-color: #167dad;
+            width: 200px;
+            height: 200px;
+            rotate: 180deg;
+
+        }
+
+        nav {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        a {
+            /* flex: 1; */
+            background-color: #333;
+            color: #fff;
+            border: 8px solid rgb(17, 17, 17);
+            padding: 0.5rem;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.9s ease-out;
+        }
+
+
+
+
+        
+        a:hover
+    {
+            background-color: #fff;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <br>
+    <br>
+
+
+
+    <nav>
+        <a href="https://www.youtube.com/">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Links</a>
+    </nav>
+
+
+</body>
+
+</html>
